@@ -1,0 +1,9 @@
+# torch is only needed for training and attribution (Colab has it preinstalled).
+torch
+numpy
+pillow
+pyarrow
+huggingface_hub
+hf_xet
+matplotlib
+scipy
