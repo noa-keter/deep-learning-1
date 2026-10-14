@@ -5,8 +5,8 @@ Deep Learning, Tel Aviv University, 2026b. Noa Keter and Ido Josephsberg.
 Detectors of AI-generated images score almost perfectly on the generator they trained on and
 degrade sharply on unseen generators. In GenImage-style benchmarks each generator emits one
 fixed image size while real photographs vary, so image dimensions alone identify both the
-class and the generator. On this data a rule with **zero parameters** ("predict synthetic if
-the image is square") reaches **0.977** accuracy on every source/target pair - higher than the
+class and the generator. On this data a rule with **zero parameters** (for example: "predict synthetic if
+the image is square") reaches **0.977** accuracy on every source/target pair, higher than the
 cross-generator accuracy of every one of our four trained detectors.
 
 Removing that cue changes what the detector sees. We hold the architecture, dataset and
